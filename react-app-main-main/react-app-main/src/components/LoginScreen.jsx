@@ -154,11 +154,6 @@ export default function LoginScreen({ onClose, onLogin }) {
             )}
           </button>
         </form>
-
-        {/* Admin hint */}
-        <div style={{ marginTop: '16px', padding: '10px', background: 'rgba(55,48,163,0.1)', borderRadius: '8px', fontSize: '0.72rem', color: '#8892b0', textAlign: 'center' }}>
-          🛡️ Admin: <strong>admin@centrosur.gob.ec</strong> / <strong>admin123</strong>
-        </div>
       </div>
     </div>
   );
